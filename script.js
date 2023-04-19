@@ -27,13 +27,10 @@ function generateImage() {
       gradient.addColorStop(0.9, '#2A37D1')
       contexts[i].fillStyle = gradient
       contexts[i].textAlign = 'left'
-      contexts[i].shadowOffsetX = 2
-      contexts[i].shadowOffsetY = 2
-      contexts[i].shadowBlur = 5
-      contexts[i].shadowColor = 'rgba(0, 0, 0, 0.7)'
+      
     }
-    contexts[0].font = " 90px 'Playfair Display', serif"
-    contexts[0].fillText(name, canvas.width / 2, canvas.height - 300, 450)
+    contexts[0].font = " 120px 'Playfair Display', serif"
+    contexts[0].fillText(name, canvas.width / 2, canvas.height - 300, 550)
 
     dataURL = canvas.toDataURL()
     updateImage(dataURL)
