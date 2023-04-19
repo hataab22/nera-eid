@@ -33,7 +33,7 @@ function generateImage() {
       contexts[i].shadowColor = 'rgba(0, 0, 0, 0.7)'
     }
     contexts[0].font = " 80px 'Playfair Display', serif"
-    contexts[0].fillText(name, canvas.width / 2, canvas.height - 240, 450)
+    contexts[0].fillText(name, canvas.width / 2, canvas.height - 280, 400)
 
     dataURL = canvas.toDataURL()
     updateImage(dataURL)
