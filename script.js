@@ -19,14 +19,14 @@ function generateImage() {
         canvas.width,
         canvas.height
       )
-      gradient.addColorStop(0.1, '#2A37D1')
-      gradient.addColorStop(0.24, '#2A37D1')
-      gradient.addColorStop(0.26, '#2D9824')
-      gradient.addColorStop(0.27, '#2D9824')
-      gradient.addColorStop(0.4, '#2D9824')
-      gradient.addColorStop(0.9, '#2D9824')
+      gradient.addColorStop(0.1, '#2A38D1')
+      gradient.addColorStop(0.24, '#2A38D1')
+      gradient.addColorStop(0.26, '#2A38D1')
+      gradient.addColorStop(0.27, '#2A38D1')
+      gradient.addColorStop(0.4, '#2A38D1')
+      gradient.addColorStop(0.9, '#2A38D1')
       contexts[i].fillStyle = gradient
-      contexts[i].textAlign = 'center'
+      contexts[i].textAlign = 'left'
       
     }
     contexts[0].font = " 120px 'Watad', serif"
