@@ -4,8 +4,8 @@ function generateImage() {
   var name = document.getElementById('name-input').value
   var canvas = document.createElement('canvas')
 
-  canvas.width = 840
-  canvas.height = 840
+  canvas.width = 2250
+  canvas.height = 2250
   var context1 = canvas.getContext('2d')
 
   var contexts = [context1]
@@ -19,12 +19,12 @@ function generateImage() {
         canvas.width,
         canvas.height
       )
-      gradient.addColorStop(0.1, '#e2d9c9')
-      gradient.addColorStop(0.24, '#e2d9c9')
-      gradient.addColorStop(0.26, '#7c6d46')
-      gradient.addColorStop(0.27, '#e2d9c9')
-      gradient.addColorStop(0.4, '#ffefc6')
-      gradient.addColorStop(0.9, '#5b4a20')
+      gradient.addColorStop(0.1, '#2D9824')
+      gradient.addColorStop(0.24, '#2D9824')
+      gradient.addColorStop(0.26, '#2D9824')
+      gradient.addColorStop(0.27, '#2D9824')
+      gradient.addColorStop(0.4, '#2A37D1')
+      gradient.addColorStop(0.9, '#2A37D1')
       contexts[i].fillStyle = gradient
       contexts[i].textAlign = 'center'
       contexts[i].shadowOffsetX = 2
@@ -32,8 +32,8 @@ function generateImage() {
       contexts[i].shadowBlur = 5
       contexts[i].shadowColor = 'rgba(0, 0, 0, 0.7)'
     }
-    contexts[0].font = " 40px 'Playfair Display', serif"
-    contexts[0].fillText(name, canvas.width / 2, canvas.height - 240, 450)
+    contexts[0].font = " 80px 'Playfair Display', serif"
+    contexts[0].fillText(name, canvas.width / 693.8, canvas.height - 1879, 1041)
 
     dataURL = canvas.toDataURL()
     updateImage(dataURL)
