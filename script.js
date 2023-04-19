@@ -29,7 +29,7 @@ function generateImage() {
       contexts[i].textAlign = 'left'
       
     }
-    contexts[0].font = " 120px 'Playfair Display', serif"
+    contexts[0].font = " 120px 'Watad', serif"
     contexts[0].fillText(name, canvas.width / 2, canvas.height - 270, 550)
 
     dataURL = canvas.toDataURL()
