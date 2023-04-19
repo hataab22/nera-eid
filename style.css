@@ -65,3 +65,10 @@ body {
     height: 90%;
   }
 }
+@font-face {
+  font-family: 'Watad';
+  src: url('https://hataab22.github.io/nera-eid/fonts/Watad.otf') format('otf'),
+       url('https://hataab22.github.io/nera-eid/fonts/Watad.otf') format('otf');
+  font-weight: normal;
+  font-style: normal;
+}
