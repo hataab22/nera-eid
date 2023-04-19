@@ -30,7 +30,7 @@ function generateImage() {
       
     }
     contexts[0].font = " 120px 'Playfair Display', serif"
-    contexts[0].fillText(name, canvas.width / 2, canvas.height - 300, 550)
+    contexts[0].fillText(name, canvas.width / 2, canvas.height - 280, 550)
 
     dataURL = canvas.toDataURL()
     updateImage(dataURL)
