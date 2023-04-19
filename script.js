@@ -49,7 +49,7 @@ nameInput.addEventListener('input', generateImage)
 var downloadBtn = document.querySelector('.btn')
 downloadBtn.addEventListener('click', () => {
   var link = document.createElement('a')
-  link.download = 'Eid'
+  link.download = 'Eid.jpg'
   link.href = dataURL
   link.click()
 })
