@@ -26,7 +26,7 @@ function generateImage() {
       gradient.addColorStop(0.4, '#2A37D1')
       gradient.addColorStop(0.9, '#2A37D1')
       contexts[i].fillStyle = gradient
-      contexts[i].textAlign = 'center'
+      contexts[i].textAlign = 'left'
       contexts[i].shadowOffsetX = 2
       contexts[i].shadowOffsetY = 2
       contexts[i].shadowBlur = 5
